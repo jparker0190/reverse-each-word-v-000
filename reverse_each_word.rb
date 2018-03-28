@@ -5,7 +5,6 @@ def reverse_each_word(string)
     array2 << reve.reverse
   end
   return array2.join
-  
 end
 
 def reverse_each_word(string)
