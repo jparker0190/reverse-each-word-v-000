@@ -2,7 +2,7 @@ def reverse_each_word(string)
   array = string.split
   array.each do |reve|
     num = reve.reverse
-    puts"#{num}
+    puts"#{num}"
   end
 end
 
