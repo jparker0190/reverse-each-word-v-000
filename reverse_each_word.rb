@@ -4,4 +4,8 @@ def reverse_each_word(string)
   end
 end
 
-def reverse_each_word
+def reverse_each_word(string)
+  string.collect do |reve|
+    reve.reverse
+  end
+end
